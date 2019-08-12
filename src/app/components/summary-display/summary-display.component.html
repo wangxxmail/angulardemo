@@ -1,0 +1,30 @@
+<div class="summarydisplay">
+    <div class="summarydisplay__content">
+        <div class="summarydisplay__content__item-one">
+            <div>
+                <span class="summarydisplay__content__item-one--month">{{currentDataSummary.month}}</span>/{{currentDataSummary.year}}
+            </div>
+            <div class="summarydisplay__content__item-one--remaining-money">余额：<img src="assets/img/icon/rmb2.svg" alt="">{{currentDataSummary.remainingMoney}}</div>
+        </div>
+        <div class="summarydisplay__content__item-two">
+            <div class="summarydisplay__content__item-two--icon">
+                <img src="assets/img/icon/i.svg" alt="">
+            </div>
+            <div class="summarydisplay__content__item-two--content">
+                <div class="summarydisplay__content__item-two--item">
+                    <span>支出</span>
+                    <br>
+                    <span class="summarydisplay__content__item-two--val"><img src="assets/img/icon/rmb.svg" alt="">{{currentDataSummary.spendingMoney}}</span>
+                </div>
+                <div class="summarydisplay__content__item-two--item">
+                    <span>收入</span>
+                    <br>                    
+                    <span class="summarydisplay__content__item-two--val"><img src="assets/img/icon/rmb.svg" alt="">{{currentDataSummary.incomeMoney}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="summarydisplay__content__item-three">
+            <span>预算</span><span class="summarydisplay__content__item-three--set">您还未设置<img src="assets/img/icon/ico-right-arrow.svg" alt=""></span>            
+        </div>
+    </div>
+</div>

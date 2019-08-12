@@ -1,0 +1,24 @@
+<div class="datadetaillist">
+<div class="datadetaillist__content">
+    <div *ngFor="let dataDetail of currentDataDetailList; let i = index">
+        <div class="datadetaillist__content__date">
+            {{dataDetail.certianDay}}
+        </div>
+        <div class="datadetaillist__content__items" *ngFor="let payingData of dataDetail.payList; let j = index">
+            <div class="datadetaillist__content__item-one"><img src="assets/img/icon/cup.svg" alt=""></div>
+            <div class="datadetaillist__content__item-two">
+                <div class="datadetaillist__content__item-two--wrap">
+                    <div class="datadetaillist__content__item-two--sub-one">{{payingData.receivingPart}}</div>
+                    <div class="datadetaillist__content__item-two--sub-two"><span>{{payingData.type}}</span>&nbsp;&nbsp;<span>{{payingData.payingWay}}</span>&nbsp;&nbsp;<span>{{payingData.time}}</span></div>
+                </div>
+            </div>
+            <div class="datadetaillist__content__item-three">
+                <span class="datadetaillist__content__item-three--type-flag" *ngIf="!payingData.inAccount">未入账</span>&nbsp;&nbsp;
+                <span *ngIf="!payingData.incomeFlag">-</span>
+                <img src="assets/img/icon/rmb3.svg" alt="">
+                <span>{{payingData.val}}</span>
+            </div>
+        </div>                          
+    </div>
+</div>
+</div>

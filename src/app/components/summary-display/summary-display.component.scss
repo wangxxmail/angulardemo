@@ -1,0 +1,61 @@
+.summarydisplay{
+    max-width: 960px;
+    margin:0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    &__content{
+        padding: 20px 10px;
+        background-color: #CE5E48;
+        border-radius: 5px;
+        color: #fff;
+
+        &__item-one{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            &--month{
+                font-size: 25px;
+            }
+
+            &--remaining-money{
+                display: inline-flex;
+            }
+        }
+
+        &__item-two{
+            position: relative;
+            margin-top: 20px;
+
+            &--icon{
+                position: absolute;
+                top: -6px;
+                right: 0;
+            }
+
+            &--content{
+                display: flex;
+            }
+
+            &--item{
+                width: 50%;
+            }
+
+            &--val {
+                font-size: 22px;
+                display: inline-flex;
+                padding-top: 5px;
+            }
+        }
+
+        &__item-three{
+            margin-top: 20px;
+
+            &--set{
+                display: inline-flex;
+                padding-left: 20px;
+            }
+        }
+    }
+}
