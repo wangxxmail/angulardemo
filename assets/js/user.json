@@ -1,0 +1,112 @@
+{
+    "userId": 123456,
+    "remainingMoney": "1,800.89",
+    "payingDetail": {
+        "yearList": [
+            {
+                "certainYear": "2019",
+                "monthList": [
+                    {
+                        "certainMonthShort": "08",
+                        "certainMonth": "2019年8月",
+                        "spendingMoney": "1,833.16",
+                        "incomeMoney": "147.49",
+                        "dayList": [
+                            {
+                                "certianDay": "今天",
+                                "payList": [
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "6.72"
+                                    }
+                                ]
+                            },
+                            {
+                                "certianDay": "昨天",
+                                "payList": [
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "19:49:27",
+                                        "inAccount": true,
+                                        "incomeFlag": false,
+                                        "val": "16.55"
+                                    },
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "36.19"
+                                    }
+                                ]
+                            },
+                            {
+                                "certianDay": "8月10日",
+                                "payList": [
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "36.32"
+                                    },
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "76.72"
+                                    },
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "76.18"
+                                    }                                    
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "certainMonthShort": "07",
+                        "certainMonth": "2019年7月",
+                        "spendingMoney": "1,278.96",
+                        "incomeMoney": "189.18",
+                        "dayList": [
+                            {
+                                "certianDay": "7月11日",
+                                "payList": [
+                                    {
+                                        "receivingPart": "支付宝-瑞幸咖啡（北京）有限公司",
+                                        "type": "零食烟酒",
+                                        "payingWay": "信用卡4793",
+                                        "time": "09:49:27",
+                                        "inAccount": false,
+                                        "incomeFlag": false,
+                                        "val": "6.72"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
