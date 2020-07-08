@@ -19,9 +19,14 @@
         <div>
             abc
         </div>
-        <iframe src="test_pdf.pdf" width="100%" height="600"></iframe> 
+        <iframe src="test_pdf.pdf" width="100%" height="300" type="application/pdf"></iframe> 
         <div>
             abc
-        </div>        
+        </div>     
+        <object data="test_pdf.pdf" type="application/pdf" width="100%" height="300px">
+            <embed src="test_pdf.pdf" type="application/pdf">
+                <p>This browser does not support PDFs. Please download the PDF to view it: <a href="test_pdf.pdf">Download PDF</a>.</p>
+            </embed>
+        </object>           
     </body>
 </html>
